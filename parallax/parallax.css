@@ -1,0 +1,35 @@
+body {
+    font-family: Arial;
+    font-size: 24px;
+    margin: 200px auto 200px auto;
+    width: 500px;
+    height: 3000px;
+}
+
+.box {
+    float: left;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+}
+
+.box-1 {
+    background-color: #e23f12;
+}
+
+.box-2 {
+    background-color: #ff851b;
+}
+
+.box-3 {
+    background-color: #ffdc00;
+}
+
+.box-4 {
+    background-color: #01ff70;
+}
+
+.box-5 {
+    background-color: #0074d9;
+}
