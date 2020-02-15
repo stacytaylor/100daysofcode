@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans&display=swap');
+
+body {
+    font-family: Fira Sans;
+    font-size: 16px;
+    line-height: 1.25;
+
+    background-color: #fafafa;
+    background-image: url(../100daysofcode/images/guntherthewonderdog.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 800px auto;
+
+
+    color: #ffffff;
+    margin: 600px auto 600px auto;
+    width: 600px;
+}
+
+section {
+    margin: 250px 0 250px 0;
+    position: relative;
+}
+
+section .overlay {
+
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: rgba(0, 0, 0, 0.25);
+        width: 100%;
+        height: 100%;
+}
+
+
+section h2 {
+    text-align: center;
+    padding: 40px;
+
+    position: sticky;
+    position: -webkit-sticky;
+    top: 45vh;
+}
