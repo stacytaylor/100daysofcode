@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Knewave|Quattrocento+Sans&display=swap');
+
+body {
+    font-family: Quattrocento Sans;
+    font-size: 25px;
+    line-height: 1.5;
+
+    background-color: #fffae2;
+    color: #221204;
+
+}
+
+h2 {
+    font-family: Knewave;
+    font-size: 75px;
+    font-weight: 700;
+    line-height: 1.1;
+    text-transform: uppercase;
+    margin: 0 0 0.6em 0;
+}
+
+p {
+    margin: 1.6em 0 1.6em 0;
+}
+
+header {
+    background-image: url("images/staring.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+header img {
+    width: 80%;
+    height: 80%;
+    object-fit: contain;
+}
+
+
+section {
+    display: flex;
+    flex-direction: row;
+}
+
+section:nth-child(odd) {
+    flex-direction: row-reverse;
+}
+
+section div {
+    width: 50%;
+}
+
+section .text {
+    padding: 60px;
+}
+
+section .full-image {
+    height: 100vh;
+    background-image: url("images/scary.jpg");
+    background-size: cover;
+    background-position: center;
+    
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+}
+
+section .image-2 {
+    background-image: url("images/sleepy.jpg");
+}
+
+section .image-3 {
+    background-image: url("images/hungry.jpg");
+}
+
+@media (max-width: 800px) {
+    body{
+        font-size: 16px;
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+
+    header {
+        height: 75vw;
+    
+    }
+
+    section{
+         display: block;
+    }
+
+    section div {
+        width: 100%;
+    }
+
+    section .text {
+        padding: 30px;
+    }
+
+    section .full-image {
+        height: 100vw;
+    }
+}
