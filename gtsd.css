@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+
+body {
+    font-family: Rubik;
+    font-size: 32px;
+    line-height: 1.25;
+
+    background-color: #ffffff;
+    color: #111118;
+
+}
+
+header, section, .footer {
+    padding: 30px;
+
+    position: sticky;
+    position: -webkit-sticky;
+
+    top: 0;
+
+}
+
+header {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer { 
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer p {
+    color: white;
+}
+section.text {
+
+    color: #ffffff;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section.text p {
+    max-width: 800px;
+
+}
+
+section.text1 {
+    background-color: #464159;
+}
+
+section.text2 {
+    background-color: #648381;
+}
+
+section.text3 {
+    background-color: #35477d;
+}
+
+section.text4 {
+    background-color: #84acce;
+}
+
+section.photo1 {
+    background-color: #6c7b95;
+}
+
+section.photo2 {
+    background-color: #f4f9e9;
+}
+
+section.photo3 {
+    background-color: #cbc0d3;
+}
+
+section.photo4 {
+    background-color: #8bbabb;
+}
+
+section.photo {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section.photo img {
+    max-width: 1000px;
+}

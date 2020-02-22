@@ -1,0 +1,47 @@
+section {
+    background: linear-gradient(
+        -45deg, 
+        #405de6,
+        #5851db,
+        #822ab4,
+        #c13584,
+        #e1306c,
+        #fd1d1d,
+        #f56040,
+        #f77737,
+        #fcaf45,
+        #ffdc80
+    );
+
+    background-size: 400% 400%;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    text-align: center;
+    animation: gradient 4s linear infinite;
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+    
+    margin: auto;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}

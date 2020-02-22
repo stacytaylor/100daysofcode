@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Mono&display=swap');
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+body {
+    font-family: 'Fira Mono' ;
+    font-size: 24px;
+    line-height: 1.5;
+
+    background-color: #ffffff;
+    color: #333333;
+    margin: 120px auto 120px auto;
+}
+
+.loading {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    z-index: 2;
+
+    transition: opacity 1s;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loading img {
+    animation: rotate 2s infinite linear;
+}
+
+.loading.hidden{
+    opacity: 0;
+    pointer-events: none;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    padding: 40px;
+    z-index: 1;
+
+}
+
+section {
+    margin: 0 40px 0 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;    
+}

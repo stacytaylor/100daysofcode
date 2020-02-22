@@ -1,0 +1,50 @@
+.gradient {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+   transition: opacity 1s;
+
+    background: linear-gradient(
+        -242deg, 
+        #15af88 16%,
+        #4c429a 67%
+    );
+    z-index: 1;
+
+}
+
+.gradient2 {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: opacity 1s;
+
+    background: linear-gradient(
+        -242deg, 
+        #61BFD9 18%,
+        #0551B4 67%
+    );
+}
+
+.gradient3 {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: opacity 1s;
+    background: linear-gradient(
+        -242deg, 
+        #EEA031 18%,
+        #930560 67%
+    );
+}
+
+
+
+

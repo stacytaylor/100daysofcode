@@ -1,0 +1,82 @@
+body {
+    background-color: rgba(224, 229, 236, 1);
+  }
+  
+  .container{
+   margin: 3rem auto;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+  }
+  
+  .card {
+    background-color: rgba(224, 229, 236, 1);
+    margin: 50px;
+    padding: 50px;
+    box-shadow: -9px -9px 16px rgba(255, 255, 255, .5), 9px 9px 16px rgba(163, 177, 198, .5);
+    border-radius: 10px;
+  }
+  
+  .controls {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .artist {
+    margin-top: 25px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+    
+  }
+  
+  .song {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+  }
+    .albumBG {
+       width: 202px;
+      height: 202px;
+      border-radius: 50%;
+        background-color: rgba(224, 229, 236, 1);
+        box-shadow: -12px -12px 16px rgba(255, 255, 255, .75), 12px 12px 16px rgba(163, 177, 198, .5);
+    }
+  
+  .album {
+     width: 200px;
+      height: 200px;
+      position: relative;
+    top: 1px;
+    left: 1px;
+      overflow: hidden;
+      border-radius: 50%;
+  
+  
+  
+    
+  }
+  .album img {
+      display: inline;
+      margin: 0 auto;
+      height: 100%;
+      width: auto;
+    
+  }
+  
+  .icon{
+    padding: 12px;
+      box-shadow: 
+        -9px -9px 16px rgba(255, 255, 255, .5), 
+        9px 9px 16px rgba(163, 177, 198, .5);
+    border-radius: 10px;
+  }
+  
+  .icon:active {
+    box-shadow: 
+       inset 4px 4px 4px rgba(163, 177, 198, .5), 
+       inset  -4px -4px 4px rgba(255, 255, 255, .5);
+  }
