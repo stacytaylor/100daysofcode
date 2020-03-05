@@ -1,0 +1,17 @@
+body {
+    background-color: #45d3c6;
+    transition:  background-color 1s;
+  }
+  
+  section.drawing-area {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 500px;
+  }
+  
+  path {
+    transition:  fill 1s;
+  }
