@@ -5,10 +5,13 @@ body {
     background-color: #ffffff;
     color: #111118;
 
+
+}
+
+main {
     margin: 50px auto 100px auto;
     width: 900px;
 }
-
 header {
     margin: 0 0 40px 0;
     text-align: center;

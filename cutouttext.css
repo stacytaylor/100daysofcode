@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans&display=swap');
+
+body {
+	font-family: Work Sans;
+	font-size: 60px;
+	line-height: 1.25;
+	
+	background-color: #ffffff;
+	color: #000000;
+
+}
+
+section.text {
+  border:  100px solid #000000;
+  padding:  100px;
+  background-color:  #ffffff;
+  position:  relative;
+}
+
+section.text p {
+  width:  70%;
+}
+
+section.text a {
+  color:  #ffffff;
+  background-color:  #000000;
+  text-decoration:  none;
+}
+
+section.text div.rect {
+  position:  absolute;
+  top:  100px;
+  right:  100px;
+  width:  250px;
+  height:  200px;
+  
+  background-color:  #000000;
+}
+
+
+section.background {
+  position:  fixed;
+  top:  0;
+  left:  0;
+  width:  100%;
+  height: 100%;
+  
+  background-image:  url(images/sebastian-muller-VLdaxYyXJvw-unsplash.jpg);
+  background-size:  cover;
+  background-position:  center;
+  mix-blend-mode:  screen;
+  
+  pointer-events:  none;
+   
+}

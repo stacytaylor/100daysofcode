@@ -14,6 +14,10 @@ body {
 
 
     color: #ffffff;
+
+}
+
+main {
     margin: 600px auto 600px auto;
     width: 600px;
 }
