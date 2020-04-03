@@ -1,6 +1,6 @@
 const quoteTag = document.querySelector('h1')
-const authorTag = document.querySelector('p')
-const bodyTag = document.querySelector("body")
+const authorTag = document.querySelector('div.innerWindow p')
+const bodyTag = document.querySelector("div.innerWindow")
 const randomTag = document.querySelector('footer img')
 
 // let data = []

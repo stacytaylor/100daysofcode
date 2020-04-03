@@ -98,7 +98,7 @@ document.addEventListener("click", function() {
   currentColor +=1
   currentColor = currentColor % bgColors.length
    
-   const bodyTag = document.querySelector("body")
+   const bodyTag = document.querySelector("div.innerWindow")
    bodyTag.style.backgroundColor = bgColors[currentColor]
   
    shapes.forEach((shape, i) => {

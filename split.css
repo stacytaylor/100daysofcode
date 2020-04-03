@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Knewave|Quattrocento+Sans&display=swap');
 
-body {
+.innerWindow {
     font-family: Quattrocento Sans;
     font-size: 25px;
     line-height: 1.5;

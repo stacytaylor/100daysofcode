@@ -2,7 +2,7 @@
     font-family:  "Bluu Next";
     src:  url(bluunext.woff2), url(bluunext.woff);
   }
-  body {
+  .innerWindow {
       font-family: "Bluu Next", Times New Roman;
     font-size:  24px;
     line-height:  1.25;
@@ -17,6 +17,7 @@
     
     transition:  background-color 0.5s;
   }
+
   
   h1 {
       font-size: 24px;

@@ -1,4 +1,4 @@
-body {
+.innerWindow {
     background-color: #45d3c6;
     transition:  background-color 1s;
   }

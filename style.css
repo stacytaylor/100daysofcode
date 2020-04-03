@@ -12,7 +12,7 @@ body {
 .container {
 
     margin: auto;
-    max-width: 2400px;
+    max-width: 2000px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -42,4 +42,14 @@ transition: transform .2s ease-in-out;
 .card:hover {
     transform: scale(1.005);
     box-shadow: 0 4px 8px 0 rgba(95, 95, 95, 0.12), 0 6px 20px 0 rgba(95, 95, 95, 0.1);
+}
+
+.text {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.text a {
+    text-decoration: none;
+    color: #0568bf;
 }

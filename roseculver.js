@@ -14,7 +14,7 @@ const previousTag = document.querySelector("footer img.prev")
 const randomTag = document.querySelector("footer img.random")
 const outputTag = document.querySelector("h2")
 const circleTag = document.querySelector("section div.circle")
-const bodyTag = document.querySelector("body")
+const bodyTag = document.querySelector("div.innerWindow")
 
 const next = function () {
     pageNumber++

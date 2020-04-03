@@ -1,6 +1,10 @@
 body {
-    background-color: #bcdffd;
     height:  4000px;
+  }
+
+  .innerwindow {
+    background-color: #bcdffd;
+
   }
   
   section.drawing-area {
